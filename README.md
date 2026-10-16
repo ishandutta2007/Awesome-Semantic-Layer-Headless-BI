@@ -1,6 +1,6 @@
 # Awesome-Semantic-Layer-Headless-BI
 
-# Top Semantic Layer & Headless BI Ecosystem
+## Top Semantic Layer & Headless BI Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Governed Metric Definitions, Headless Serving APIs & AI-Ready Semantics*  
