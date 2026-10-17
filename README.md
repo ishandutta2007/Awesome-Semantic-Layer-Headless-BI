@@ -82,57 +82,57 @@ The table below lists the top commercial Semantic Layer and Headless BI platform
 
 The following open-source semantic layers, metrics engines, and code-first analytical platforms are **sorted in descending order by GitHub stargazers count**.
 
-### 1. [Apache Superset](https://github.com/apache/superset) [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+### 1. [Apache Superset](https://github.com/apache/superset) [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
 - **License**: Apache 2.0 • **Language**: Python / TypeScript
 - **Overview**: The enterprise-grade open-source modern data exploration and dashboard platform. While primarily a visualization tool, Superset features built-in dataset semantic definitions, calculated metrics, and native connectivity to external semantic layers like Cube and MetricFlow.
 - **Best For**: Organizations deploying self-hosted, scalable BI connected to governed warehouse semantic layers.
 
-### 2. [Metabase](https://github.com/metabase/metabase) [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+### 2. [Metabase](https://github.com/metabase/metabase) [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
 - **License**: AGPLv3 / Commercial • **Language**: Clojure / JavaScript
 - **Overview**: The most popular open-source business intelligence and embedded analytics tool. Metabase allows data teams to define reusable models, metadata, and custom metrics with visual and SQL query builders.
 - **Best For**: Fast company-wide self-serve exploration and simple embedded analytics.
 
-### 3. [DuckDB](https://github.com/duckdb/duckdb) [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
+### 3. [DuckDB](https://github.com/duckdb/duckdb) [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
 - **License**: MIT • **Language**: C++
 - **Overview**: An ultra-fast in-process analytical SQL database engine. DuckDB has become the bedrock execution engine for modern local and embedded semantic layers, enabling instant query compilation over Parquet, Arrow, and remote object stores without external database infrastructure.
 - **Best For**: Embedded semantic acceleration, serverless metric serving, and local development.
 
-### 4. [Cube Core](https://github.com/cube-js/cube) [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)
+### 4. [Cube Core](https://github.com/cube-js/cube) [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)
 - **License**: Apache 2.0 • **Language**: Rust / JavaScript
 - **Overview**: The leading open-source universal semantic layer and headless BI engine. Cube defines data models in code (YAML or JavaScript/Python), manages pre-aggregations, caches results, and serves governed metrics via REST, GraphQL, SQL API (Postgres protocol), and DAX for Power BI.
 - **Best For**: Engineering teams building embedded analytics, customer-facing portals, and decoupled headless metric APIs.
 
-### 5. [Wren AI](https://github.com/Canner/WrenAI) [![GitHub stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers)
+### 5. [Wren AI](https://github.com/Canner/WrenAI) [![GitHub_Stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers)
 - **License**: Apache 2.0 • **Language**: Java / TypeScript / Python
 - **Overview**: An open-source, GenAI-native semantic context layer designed specifically for LLM text-to-SQL agents. Wren AI bridges ambiguous natural-language business questions with accurate SQL generation using an explicit semantic context engine across 20+ warehouse dialects.
 - **Best For**: Teams deploying AI analytics agents and zero-hallucination conversational interfaces on their warehouses.
 
-### 6. [dbt-core](https://github.com/dbt-labs/dbt-core) [![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)
+### 6. [dbt-core](https://github.com/dbt-labs/dbt-core) [![GitHub_Stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)
 - **License**: Apache 2.0 • **Language**: Python
 - **Overview**: The industry standard for data transformation in modern warehouses. Powers metrics definitions via dbt semantic specifications and integration with downstream engines like MetricFlow.
 - **Best For**: Data transformation, lineage governance, and upstream semantic definitions.
 
-### 7. [Evidence](https://github.com/evidence-dev/evidence) [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)
+### 7. [Evidence](https://github.com/evidence-dev/evidence) [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)
 - **License**: MIT • **Language**: Svelte / TypeScript
 - **Overview**: Business intelligence as code. Evidence compiles Markdown and SQL into lightning-fast, interactive data web applications and reports, with automatic version control and CI/CD pipelines.
 - **Best For**: Analytics engineers who want code-driven, fast, and version-controlled BI reports.
 
-### 8. [Lightdash](https://github.com/lightdash/lightdash) [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)
+### 8. [Lightdash](https://github.com/lightdash/lightdash) [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)
 - **License**: MIT • **Language**: TypeScript / Node.js
 - **Overview**: The open-source BI platform natively designed for dbt. Lightdash translates dbt model YAML configurations into self-serve BI catalogs, exploratory dashboards, and AI-assisted documentation.
 - **Best For**: Teams using dbt who want an immediate self-serve BI layer without maintaining separate visualization models.
 
-### 9. [Rill](https://github.com/rilldata/rill) [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)
+### 9. [Rill](https://github.com/rilldata/rill) [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)
 - **License**: Apache 2.0 • **Language**: Go / TypeScript
 - **Overview**: Lightning-fast operational BI and metrics layer powered by an embedded DuckDB engine. Rill combines declarative metric definitions in YAML with instant, sub-second interactive dashboards.
 - **Best For**: Operational metrics, event stream analysis, and rapid local dashboard iteration.
 
-### 10. [Malloy](https://github.com/malloydata/malloy) [![GitHub stars](https://img.shields.io/github/stars/malloydata/malloy?style=social&color=white)](https://github.com/malloydata/malloy/stargazers)
+### 10. [Malloy](https://github.com/malloydata/malloy) [![GitHub_Stars](https://img.shields.io/github/stars/malloydata/malloy?style=social&color=white)](https://github.com/malloydata/malloy/stargazers)
 - **License**: MIT • **Language**: TypeScript
 - **Overview**: A modern open-source language for describing data relationships, hierarchies, and metric calculations, created by the original founders of Looker. Malloy compiles concise semantic queries into optimized SQL.
 - **Best For**: Next-generation semantic modeling, nested queries, and programmatic SQL compilation.
 
-### 11. [MetricFlow](https://github.com/dbt-labs/metricflow) [![GitHub stars](https://img.shields.io/github/stars/dbt-labs/metricflow?style=social&color=white)](https://github.com/dbt-labs/metricflow/stargazers)
+### 11. [MetricFlow](https://github.com/dbt-labs/metricflow) [![GitHub_Stars](https://img.shields.io/github/stars/dbt-labs/metricflow?style=social&color=white)](https://github.com/dbt-labs/metricflow/stargazers)
 - **License**: Apache 2.0 • **Language**: Python
 - **Overview**: The open-source metrics engine powering the dbt Semantic Layer. MetricFlow parses declarative YAML specifications to construct semantic graphs and compile complex, multi-hop aggregate SQL queries dynamically.
 - **Best For**: Teams building custom metric serving layers using dbt specifications.
@@ -169,7 +169,7 @@ Contributions are welcome and highly appreciated! To contribute to this list:
 3. Ensure entries adhere to our criteria:
    - Factual, objective descriptions with direct links to official sites or repositories.
    - For SaaS products: include specific starting pricing tiers, explicit free tier/trial limits, and company scale.
-   - For open-source repos: include correct GitHub stars badge linking to the stargazers page, license, and repository URL.
+   - For open-source repos: include correct GitHub_Stars_Badge linking to the stargazers page, license, and repository URL.
 4. **Submit a Pull Request** with a descriptive summary of your additions.
 
 ---
@@ -193,4 +193,4 @@ If you find this curated semantic layer directory valuable:
 
 - This is an independent, community-curated directory — inclusion does not imply commercial endorsement.
 - Semantic layer architectures differ substantially in latency profiles, infrastructure requirements, and lock-in implications. Evaluators should benchmark query compilation times, caching granularity, and API compatibility against their target warehouse stack.
-- Pricing, free trial limits, and star counts reflect verified data as of early 2026 and may change over time.
+- Pricing, free trial limits, and Stars_Counts reflect verified data as of early 2026 and may change over time.
